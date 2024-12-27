@@ -4,7 +4,6 @@ metadata:
   name: guest-book
 spec:
   promotionTemplate:
-    promotion:
-      values.yaml:
-        jsonPaths:
-          - image.tag
+    versionSource:
+      file: values.yaml
+      jsonPath: image.tag
