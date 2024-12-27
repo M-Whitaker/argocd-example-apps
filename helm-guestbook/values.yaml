@@ -6,7 +6,7 @@ replicaCount: 1
 
 image:
   repository: corelab/gb-frontend-arm64
-  tag: v5
+  tag: v6
   pullPolicy: IfNotPresent
 
 containerPort: 80
